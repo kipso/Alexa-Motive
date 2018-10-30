@@ -1,7 +1,8 @@
-from src import app
+
+
 from flask import Flask
 from flask_ask import Ask, request, session, question, statement
-
+import sys
 
 app = Flask(__name__)
 
